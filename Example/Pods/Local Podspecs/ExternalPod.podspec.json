@@ -1,0 +1,22 @@
+{
+  "name": "ExternalPod",
+  "version": "0.1.0",
+  "summary": "A short description of ExternalPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aasmare/ExternalPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aasmare": "aasmare@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/aasmare/ExternalPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ExternalPod/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module ExternalPod {
+  umbrella header "ExternalPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

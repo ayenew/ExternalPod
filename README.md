@@ -22,7 +22,7 @@ pod 'ExternalPod'
 
 ## Author
 
-aasmare, aasmare@gmail.com
+aaa
 
 ## License
 

@@ -42,10 +42,10 @@
 		607FACE51AFB9204008FA782 /* ExternalPod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExternalPod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7A5B47CD5F42CC8C43FE1F2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BD7572EDDEE606B05A1ACBC9 /* ExternalPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ExternalPod.podspec; path = ../ExternalPod.podspec; sourceTree = "<group>"; };
+		7A5B47CD5F42CC8C43FE1F2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BD7572EDDEE606B05A1ACBC9 /* ExternalPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ExternalPod.podspec; path = ../ExternalPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C582702B97DB6235A65B01A1 /* Pods-ExternalPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExternalPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ExternalPod_Tests/Pods-ExternalPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C6208390E8A9639FAD449BD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C6208390E8A9639FAD449BD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DF1C4701EAFE8BEF0179F394 /* Pods-ExternalPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExternalPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-ExternalPod_Example/Pods-ExternalPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				C582702B97DB6235A65B01A1 /* Pods-ExternalPod_Tests.debug.xcconfig */,
 				1B4B71963348457714E00104 /* Pods-ExternalPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
