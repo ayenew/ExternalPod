@@ -28,13 +28,13 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/ayenew/ExternalPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'ExternalPod/Classes/**/*'
   
-  s.resource_bundles = {
-    'ExternalPod' => ['ExternalPod/Assets/*.png']
-  }
+  # s.resource_bundles = {
+  #   'ExternalPod' => ['ExternalPod/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
